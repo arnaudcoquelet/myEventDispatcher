@@ -1,0 +1,8 @@
+<settingRequirements>
+ <settings>
+  <setting details="" label="Enable myEventDispatcher" user_device="device" id="EnableWebappmyEventDispatcher" display="false" accessRights="RW_RW" description="Will enable or disable the webapp myEventDispatcher" range="All" rights="RW_RW" value="true" mainCategory="Application" DM="true" mandatory="false" requiresReboot="SOFT" release="R200" displayRights="0_0" category="myEventDispatcher" enabler="" type="ENABLER"/>
+  <setting details="" label="URL" user_device="user" id="myEventDispatcherUrl" display="true" accessRights="RW_RW" description="myEventDispatcher URL" range="All" rights="RW_RW" value="http://" mainCategory="Application" DM="false" mandatory="true" requiresReboot="NONE" release="R200" displayRights="RW_RW" category="myEventDispatcher" enabler="EnableWebappmyEventDispatcher" type="TEXT"/>
+  <setting details="" label="Timer" user_device="user" id="myEventDispatcherTimer" display="true" accessRights="RW_RW" description="myEventDispatcher Timer in second" range="All" rights="RW_RW" value="120" mainCategory="Application" DM="false" mandatory="true" requiresReboot="NONE" release="R200" displayRights="RW_RW" category="myEventDispatcher" enabler="EnableWebappmyEventDispatcher" type="NUMERIC"/>
+  <setting details="" label="User" user_device="user" id="myEventDispatcherUser" display="true" accessRights="RW_RW" description="myEventDispatcher User Information" range="All" rights="RW_RW" value="" mainCategory="Application" DM="false" mandatory="true" requiresReboot="NONE" release="R200" displayRights="RW_RW" category="myEventDispatcher" enabler="EnableWebappmyEventDispatcher" type="NUMERIC"/>
+ </settings>
+</settingRequirements>
